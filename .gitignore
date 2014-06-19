@@ -1,0 +1,2 @@
+# Override my global jar-exclude
+!*.jar
