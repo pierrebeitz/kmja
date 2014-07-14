@@ -5,7 +5,6 @@
 # @param $2 output-file
 
 # ignore the first line of MooBench's output as well as the throughput since it is way out of scale
-# 'transpose' MooBench's output and calculate the mean values
 tail -n +2 $1 |
 head -n -1 |
 # calculate mean values of every row, we need a subshell to wait for the complete output
